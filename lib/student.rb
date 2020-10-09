@@ -38,8 +38,6 @@ class Student
     SQL
  
     DB[:conn].execute(sql, self.id, self.name, self.grade)
- 
-  end
   end
   
 end
